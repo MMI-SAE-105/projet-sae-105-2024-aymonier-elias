@@ -4,11 +4,17 @@
     align-items: center;
     width: 100%;
     padding: 20px 30px;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    background-color: var(--gray-10);
+
 }
 
 .menu__logo {
-    height: 80px;
-    z-index: 2;
+}
+.menu__logo-img {
+    height: 50px;
 }
 
 .menu__btn {
@@ -26,7 +32,7 @@
 
 .menu__btn-langue a{
     color: var(--gray-0);
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 300;
     position: relative;
 }
@@ -39,8 +45,8 @@
 
 .btn-nav{
     position: relative;
-    width: 45px;
-    height: 35px;
+    width: 35px;
+    height: 30px;
 }
 
 .btn-nav__bars,
@@ -56,10 +62,10 @@
 }
 
 .btn-nav__bars::before {
-    top: 15px;
+    top: 12px;
 }
 .btn-nav__bars::after{
-    top: -15px;
+    top: -12px;
 }
 
 /* Annimation de la croix */
