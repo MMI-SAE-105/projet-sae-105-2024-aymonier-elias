@@ -3,7 +3,8 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
-    gap: 50px;
+    gap: 100px;
+    margin-top: 50px;
 }
 .hero__img {
     width: 100%;

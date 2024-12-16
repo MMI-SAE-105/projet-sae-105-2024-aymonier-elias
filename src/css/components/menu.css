@@ -8,12 +8,14 @@
 
 .menu__logo {
     height: 80px;
+    z-index: 2;
 }
 
 .menu__btn {
     display: flex;
     align-items: center;
     gap: 20px;
+    z-index: 2;
 }
 
 .menu__btn-langue{
@@ -50,6 +52,7 @@
     background-color: var(--gray-0);
     position: absolute;
     left: 0;
+    transition: .5s ease;
 }
 
 .btn-nav__bars::before {
@@ -57,4 +60,19 @@
 }
 .btn-nav__bars::after{
     top: -15px;
+}
+
+/* Annimation de la croix */
+.btn-nav[aria-expanded = true] .btn-nav__bars{
+    transform: rotate(180deg);
+    background-color: var(--gray-10);
+}
+
+.btn-nav[aria-expanded = true] .btn-nav__bars::before {
+    transform: rotate(45deg);
+    top: 0;
+}
+.btn-nav[aria-expanded = true] .btn-nav__bars::after{
+    transform: rotate(135deg);
+    top: 0;
 }
