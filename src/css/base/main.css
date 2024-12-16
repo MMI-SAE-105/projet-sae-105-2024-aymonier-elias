@@ -19,6 +19,7 @@ h2 {
 }
 h3 {
     font: var(--title-m);
+    letter-spacing: 1px;
 }
 p {
     font: var(--text-body);
@@ -43,4 +44,12 @@ button {
 
 strong {
     font-weight: 800;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin: 75px 0;
+    padding: 0 20px;
 }

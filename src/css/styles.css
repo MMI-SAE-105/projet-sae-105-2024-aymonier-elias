@@ -13,8 +13,10 @@
 
 /* Layout */
 @import "layout/header.css";
+@import "layout/footer.css";
 
 /* Components */
-@import "components/hero.css";
-@import "components/menu.css";
-@import "components/nav.css";
+    /* header */
+    @import "components/hero.css";
+    @import "components/menu.css";
+    @import "components/nav.css";
