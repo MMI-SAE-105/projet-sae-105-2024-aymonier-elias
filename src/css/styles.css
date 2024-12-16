@@ -20,3 +20,6 @@
     @import "components/hero.css";
     @import "components/menu.css";
     @import "components/nav.css";
+
+    /* Index.html */
+    @import "components/card.css";
