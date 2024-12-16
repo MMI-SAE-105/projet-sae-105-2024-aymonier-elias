@@ -1,0 +1,60 @@
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 30px;
+}
+
+.menu__logo {
+    height: 80px;
+}
+
+.menu__btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.menu__btn-langue{
+    display: flex;
+    gap: 10px;
+    position: relative;
+}
+
+.menu__btn-langue a{
+    color: var(--gray-0);
+    font-size: 1.5rem;
+    font-weight: 300;
+    position: relative;
+}
+
+.menu__btn-bar{
+    width: 2px;
+    background-color: var(--gray-0);
+    top: 0;
+}
+
+.btn-nav{
+    position: relative;
+    width: 45px;
+    height: 35px;
+}
+
+.btn-nav__bars,
+.btn-nav__bars::before,
+.btn-nav__bars::after {
+    content: "";
+    height: 4px;
+    width: 100%;
+    background-color: var(--gray-0);
+    position: absolute;
+    left: 0;
+}
+
+.btn-nav__bars::before {
+    top: 15px;
+}
+.btn-nav__bars::after{
+    top: -15px;
+}

@@ -12,6 +12,7 @@ body {
 h1 {
     font: var(--title-xl);
     color: var(--gray-0);
+    letter-spacing: 2px;
 }
 h2 {
     font: var(--title-l);
@@ -34,4 +35,12 @@ button {
 a {
     text-decoration: none;
     color: var(--gray-10);
+}
+button {
+    background: none;
+    border: none;
+}
+
+strong {
+    font-weight: 800;
 }

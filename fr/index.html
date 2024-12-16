@@ -23,20 +23,23 @@
     <!-- Header -->
     <header id="header" class="header">
         <div class="header__menu menu">
-            <img class="menu__logo" src="/assets/icon/logo.svg" alt="Logo de Virtual Existence">
+            <a href="/fr/">
+                <img class="menu__logo" src="/assets/icon/logo.svg" alt="Logo de Virtual Existence">
+            </a>
             <div class="menu__btn">
                 <div class="menu__btn-langue">
-                    <a href="/en/"><strong>FR</strong></a>
-                    <a href="/fr/">EN</a>
+                    <a href="/fr/"><strong>FR</strong></a>
+                    <span class="menu__btn-bar"></span>
+                    <a href="/en/">EN</a>
                 </div>
+                <button class="menu__btn-nav btn-nav" aria-expanded="false" aria-label="ouvrir le menu">
+                    <span class="btn-nav__bars"></span>
+                </button>
             </div>
-            <button class="menu__btn-nav btn-nav">
-                <span class="btn-nav__bars"></span>
-            </button>
         </div>
 
         <!-- Nav -->
-        <nav class="header__nav nav">
+        <nav class="header__nav nav" aria-hidden="true">
             <a class="nav__item nav__link" href="frise.html">Frise du réalisme</a>
             <a class="nav__item nav__link" href="musique-resumer.html">Musique :<br>Outer Wilds</a>
             <a class="nav__item nav__link" href="filme-resumer.html">Filme :<br>Ready Player One</a>
@@ -49,7 +52,7 @@
         </nav>
 
         <div class="header__hero hero">
-            <h1 class="hero__title">Virtueal Existence</h1>
+            <h1 class="hero__title">Virtual Existence</h1>
             <img class="hero__img" src="/assets/img/fond_header_1.jpg"
                 alt="Image d'un homme regardant une ville futuriste">
         </div>
