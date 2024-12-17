@@ -24,3 +24,6 @@
     /* Index.html */
     @import "components/card.css";
     @import "components/slider.css";
+
+    /* Content */
+    @import "components/content.css";

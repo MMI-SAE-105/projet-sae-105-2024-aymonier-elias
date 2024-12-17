@@ -2,7 +2,7 @@
     display: flex;
     width: 100%;
     overflow-x: scroll;
-    gap: 25px;
+    gap: 20px;
     scroll-behavior: smooth;
     scroll-snap-type: x mandatory;
 }
