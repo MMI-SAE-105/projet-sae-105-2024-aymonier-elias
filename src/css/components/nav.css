@@ -10,13 +10,16 @@
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    gap: 10px;
     padding: 100px 40px 0 40px;
     transition: .5s ease;
 }
 
 .nav__item {
-    background-color: var(--blue-dark);
-    padding: 10px 20px;
-    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    height: 45px;
+    width: 100%;
+    padding: 30px 10px;
+    color: var(--gray-0);
+    border-bottom: solid 2px var(--blue-dark);
 }
