@@ -24,6 +24,7 @@
     /* Index.html */
     @import "components/card.css";
     @import "components/slider.css";
+    @import "components/frise.css";
 
     /* Content */
     @import "components/content.css";

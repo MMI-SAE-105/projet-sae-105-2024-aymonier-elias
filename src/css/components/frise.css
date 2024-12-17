@@ -1,0 +1,55 @@
+.frise {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.frise__item {
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+
+.frise__date {
+    font: var(--title-l);
+}
+
+.jeux {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.jeux__img {
+    width: 100%;
+}
+
+.frise__fleche {
+    align-self: stretch;
+    min-width: 3px;
+    background-color: var(--gray-10);
+    position: relative;
+    z-index: -1;
+}
+.frise__fleche::after {
+    content: "";
+    height: 3px;
+    width: 25px;
+    background-color: var(--gray-10);
+    position: absolute;
+    bottom: 9px;
+    left: -2px;
+    transform: rotate(-45deg);
+}
+.frise__fleche::before {
+    content: "";
+    height: 3px;
+    width: 25px;
+    background-color: var(--gray-10);
+    position: absolute;
+    bottom: 9px;
+    right: -2px;
+    transform: rotate(45deg);
+}
