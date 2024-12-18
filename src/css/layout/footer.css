@@ -20,6 +20,7 @@
 }
 
 .footer__link,
+.footer__mail,
 .footer__text,
 .footer__reseaux {
     padding: 0 30px;
@@ -34,4 +35,8 @@
 .footer__reseaux {
     display: flex;
     justify-content: space-between;
+}
+
+.footer__mail {
+    text-transform: lowercase;
 }

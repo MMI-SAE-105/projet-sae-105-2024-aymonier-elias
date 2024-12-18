@@ -49,3 +49,6 @@
 .musique__card-title {
     font: var(--title-l);
 }
+.content__title {
+    margin: 0 40px;
+}

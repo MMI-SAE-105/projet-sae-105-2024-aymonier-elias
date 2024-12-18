@@ -17,6 +17,7 @@
 
 .slider__item img{
     border-radius: 10px;
+    width: 200px;
 }
 .slider__item a{
     background-color: var(--gray-10);

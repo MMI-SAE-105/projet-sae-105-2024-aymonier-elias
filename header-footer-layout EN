@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="frda">
+<html lang="en">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/src/css/styles.css">
 
-    <title>Virtual Existence - À Propos</title>
+    <title>Virtual Existence</title>
 </head>
 
 <body>
@@ -27,9 +27,9 @@
         </a>
         <div class="menu__btn">
             <div class="menu__btn-langue">
-                <a href="/fr/"><strong>FR</strong></a>
+                <a href="/fr/">FR</a>
                 <span class="menu__btn-bar"></span>
-                <a href="/en/">EN</a>
+                <a href="/en/"><strong>EN</strong></a>
             </div>
             <button class="menu__btn-nav btn-nav" aria-expanded="false" aria-label="ouvrir le menu">
                 <span class="btn-nav__bars"></span>
@@ -40,19 +40,19 @@
 
         <!-- Nav -->
         <nav class="header__nav nav" aria-hidden="true">
-            <a class="nav__item nav__link" href="frise.html">Frise du réalisme</a>
-            <a class="nav__item nav__link" href="musique.html">Musique :<br>Outer Wilds</a>
-            <a class="nav__item nav__link" href="film.html">Film :<br>Ready Player One</a>
-            <a class="nav__item nav__link" href="livre.html">Livre :<br>Neuromentien</a>
-            <a class="nav__item nav__link" href="realisateur.html">Réalisateur :<br>Konrad Tomasziewicz</a>
+            <a class="nav__item nav__link" href="frise.html">Realism Timeline</a>
+            <a class="nav__item nav__link" href="musique.html">Music :<br>Outer Wilds</a>
+            <a class="nav__item nav__link" href="film.html">Movie :<br>Ready Player One</a>
+            <a class="nav__item nav__link" href="livre.html">Book :<br>Neuromentien</a>
+            <a class="nav__item nav__link" href="realisateur.html">Director :<br>Konrad Tomasziewicz</a>
             <a class="nav__item nav__link" href="contact.html">Contact</a>
-            <a class="nav__item nav__link" href="a_propos.html">À Propos</a>
-            <a class="nav__item nav__link" href="autres_projet.html">Autres Projets</a>
-            <a class="nav__item nav__link" href="glossaire.html">Glossaire</a>
+            <a class="nav__item nav__link" href="a_propos.html">About us</a>
+            <a class="nav__item nav__link" href="autres_projet.html">Other projects</a>
+            <a class="nav__item nav__link" href="glossaire.html">Glossary</a>
         </nav>
 
         <div class="header__hero hero">
-            <h1 class="hero__title">À Propos</h1>
+            <h1 class="hero__title">Virtual Existence</h1>
             <img class="hero__img" src="/assets/img/fond_header_1.webp"
                 alt="Image d'un homme regardant une ville futuriste">
         </div>
@@ -60,30 +60,7 @@
 
 
     <!-- Content -->
-    <section class="content">
-        <h2 class="content__title">Ce que vous devez savoir</h2>
 
-        <article class="content__paragraph paragraph">
-            <h3 class="paragraph__tilte">Qui nous sommes ?</h3>
-            <p class="paragraph__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium
-                pariatur, ad blanditiis tempora iste placeat nemo, eligendi sapiente ipsa doloribus nobis consequatur
-                deleniti ipsam reprehenderit cum temporibus quod dolore!</p>
-        </article>
-
-        <article class="content__paragraph paragraph">
-            <h3 class="paragraph__tilte">Pourquoi ce site ?</h3>
-            <p class="paragraph__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium
-                pariatur, ad blanditiis tempora iste placeat nemo, eligendi sapiente ipsa doloribus nobis consequatur
-                deleniti ipsam reprehenderit cum temporibus quod dolore!</p>
-        </article>
-
-        <article class="content__paragraph paragraph">
-            <h3 class="paragraph__tilte">Difficultés</h3>
-            <p class="paragraph__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam laudantium
-                pariatur, ad blanditiis tempora iste placeat nemo, eligendi sapiente ipsa doloribus nobis consequatur
-                deleniti ipsam reprehenderit cum temporibus quod dolore!</p>
-        </article>
-    </section>
 
     <!-- Footer -->
     <footer class="footer">
@@ -94,17 +71,17 @@
             </a>
         </div>
         <div class="footer__legal footer__container">
-            <h3 class="footer__title">Mentions Légal</h3>
-            <a class="footer__link" href="https://blogdummi.fr">Projet réalisé en 2024 dans le cadre d'un exercice
-                pédagogique au département MMi de Montbéliard.</a>
+            <h3 class="footer__title">Légal Mentions</h3>
+            <a class="footer__link" href="https://blogdummi.fr">Project carried out in 2024 as part of an educational
+                exercise at the MMi department in Montbéliard.</a>
         </div>
         <div class="footer__legal footer__container">
             <h3 class="footer__title">Contact</h3>
             <p class="footer__text">07 81 67 63 00</p>
-            <a class="footer__mail" href="mailto:eias.aymonier@edu.univ-fcomte.fr">eias.aymonier@edu.univ-fcomte.fr</a>
+            <a href="mailto:eias.aymonier@edu.univ-fcomte.fr">eias.aymonier@edu.univ-fcomte.fr</a>
         </div>
         <div class="footer__legal footer__container">
-            <h3 class="footer__title">Nous suivre</h3>
+            <h3 class="footer__title">Folow Us</h3>
             <div class="footer__reseaux">
                 <img src="/assets/icon/discord.svg" alt="Logo de Discord">
                 <img src="/assets/icon/youtube.svg" alt="Logo de Youtube">

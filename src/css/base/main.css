@@ -21,11 +21,13 @@ h3 {
     font: var(--title-m);
     letter-spacing: 1px;
 }
-p {
+p,
+.footer__mail {
     font: var(--text-body);
     line-height: 130%;
 }
-.text-s {
+
+.tet-s {
     font: var(--text-s);
 }
 a,
