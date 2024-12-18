@@ -1,0 +1,33 @@
+.projet__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.projet {
+    display: flex;
+    flex-direction: column;
+    width: 45%;
+    gap: 10px;
+}
+.projet__img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+.projet__title {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 5px;
+}
+.projet__link {
+    background-color: var(--gray-10);
+    color: var(--gray-0);
+    padding: 5px 10px;
+    border-radius: 10px;
+}
