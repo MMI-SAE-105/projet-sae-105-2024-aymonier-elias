@@ -41,10 +41,10 @@
         <!-- Nav -->
         <nav class="header__nav nav" aria-hidden="true">
             <a class="nav__item nav__link" href="frise.html">Frise du réalisme</a>
-            <a class="nav__item nav__link" href="musique-.html">Musique :<br>Outer Wilds</a>
-            <a class="nav__item nav__link" href="film-.html">Film :<br>Ready Player One</a>
-            <a class="nav__item nav__link" href="livre-.html">Livre :<br>Neuromentien</a>
-            <a class="nav__item nav__link" href="realisateur-.html">Réalisateur :<br>Konrad Tomasziewicz</a>
+            <a class="nav__item nav__link" href="musique.html">Musique :<br>Outer Wilds</a>
+            <a class="nav__item nav__link" href="film.html">Film :<br>Ready Player One</a>
+            <a class="nav__item nav__link" href="livre.html">Livre :<br>Neuromentien</a>
+            <a class="nav__item nav__link" href="realisateur.html">Réalisateur :<br>Konrad Tomasziewicz</a>
             <a class="nav__item nav__link" href="contact.html">Contact</a>
             <a class="nav__item nav__link" href="a_propos.html">À Propos</a>
             <a class="nav__item nav__link" href="autres_projet.html">Autres Projets</a>
@@ -60,7 +60,31 @@
 
 
     <!-- Content -->
-        
+    <section class="content">
+        <h2>Des choses à nous dire ?</h2>
+
+        <form class="content__form form" action="">
+            <ul class="form__liste">
+                <li class="form__item">
+                    <label class="form__label" for="name">Nom - Prénom</label>
+                    <input id="name" class="form__input" type="text" name="user-name" placeholder="Votre nom et votre prénom">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="mail">E-Mail</label>
+                    <input id="mail" class="form__input" type="text" name="user-mail" placeholder="Votre adresse e-mail">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="subject">Sujet</label>
+                    <input id="subject" class="form__input" type="text" name="user-subject" placeholder="Le sujet de votre message">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="msg">Message</label>
+                    <textarea id="msg" class="form__input form__textarea" type="text" name="user-msg" placeholder="Dévrivez ce que vous voulez nous dire"></textarea>
+                </li>
+            </ul>
+            <button class="form__submit" type="submit">Envoyer</button>
+        </form>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">

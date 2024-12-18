@@ -24,6 +24,7 @@
 }
 .jeux__img {
     width: 100%;
+    border-radius: 10px;
 }
 
 .frise__fleche {
@@ -52,4 +53,10 @@
     bottom: 9px;
     right: -2px;
     transform: rotate(45deg);
+}
+
+.jeux-double {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
 }
