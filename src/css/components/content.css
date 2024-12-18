@@ -35,3 +35,16 @@
     width: 100%;
     padding: 0 40px;
 }
+
+.musique__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 40px;
+    width: 100%;
+    background-color: var(--blue-light);
+    color: var(--gray-0);
+}
+.musique__card-title {
+    font: var(--title-l);
+}
