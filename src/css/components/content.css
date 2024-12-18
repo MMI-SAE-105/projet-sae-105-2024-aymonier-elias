@@ -14,9 +14,10 @@
     display: flex;
     justify-content: space-between;
     width: 100%;
-    img {
-        height: 180px;
+    padding: 0 40px;
 
+    img {
+        width: 30%;
     }
 }
 
