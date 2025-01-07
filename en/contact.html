@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
     <meta charset="UTF-8">
@@ -16,7 +16,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="/src/css/styles.css">
 
-    <title>Virtual Existence - Outer Wils</title>
+    <title>Virtual Existence - Contact</title>
 </head>
 
 <body>
@@ -27,9 +27,9 @@
         </a>
         <div class="menu__btn">
             <div class="menu__btn-langue">
-                <a href="/fr/">FR</a>
+                <a href="/fr/contact.html">FR</a>
                 <span class="menu__btn-bar"></span>
-                <a href="/en/"><strong>EN</strong></a>
+                <a href="/en/contact.html"><strong>EN</strong></a>
             </div>
             <button class="menu__btn-nav btn-nav" aria-expanded="false" aria-label="ouvrir le menu">
                 <span class="btn-nav__bars"></span>
@@ -52,15 +52,39 @@
         </nav>
 
         <div class="header__hero hero">
-            <h1 class="hero__title">Virtual Existence</h1>
-            <img class="hero__img" src="/assets/img/fond_header_1.webp"
+            <h1 class="hero__title">Contact Us</h1>
+            <img class="hero__img" src="/assets/img/fond_header_contact.webp"
                 alt="Image d'un homme regardant une ville futuriste">
         </div>
     </header>
 
 
     <!-- Content -->
+    <section class="content">
+        <h2>Anything you'd like to tell us?</h2>
 
+        <form class="content__form form" action="">
+            <ul class="form__liste">
+                <li class="form__item">
+                    <label class="form__label" for="name">Last name - First name</label>
+                    <input id="name" class="form__input" type="text" name="user-name" placeholder="Your first and last name">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="mail">E-Mail</label>
+                    <input id="mail" class="form__input" type="text" name="user-mail" placeholder="Your e-mail address">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="subject">Subject</label>
+                    <input id="subject" class="form__input" type="text" name="user-subject" placeholder="The subject of your message">
+                </li>
+                <li class="form__item">
+                    <label class="form__label" for="msg">Message</label>
+                    <textarea id="msg" class="form__input form__textarea" type="text" name="user-msg" placeholder="Describe what you want to tell us"></textarea>
+                </li>
+            </ul>
+            <button class="form__submit">Send</button>
+        </form>
+    </section>
 
     <!-- Footer -->
     <footer class="footer">
