@@ -74,11 +74,24 @@
 
         <article class="content__musique musique paragraph">
             <h3 class="musiue__title">Écouter Outer Wilds</h3>
-            <div class="musique__card">
-                <img class="musique__card-img" src="/assets/img/pochette_album_outer_wilds.webp"
-                    alt="Pochette de l'abum de Outer Wilds">
-                <p class="musique__card-title">Outer Wilds</p>
-                <audio class="content__card-music" controls="controls" src="http://elias-aymonier.fr/music/outer_wilds.mp3"></audio>
+            <div class="musique__controls controls">
+                <img src="/assets/img/pochette_album_outer_wilds.webp" alt="Pochette de l'album Outer Wilds">
+                <div class="controls__time controls__content">
+                    <p><span id="elapsed">0:00</span> / <span id="track-time">1:00</span></p>
+                    <input class="controls__input" type="range" id="track" value="0">
+                </div>
+                <div class="controls__song controls__content">
+                    <audio id="audio" class="controls__music" src="http://elias-aymonier.fr/music/outer_wilds.mp3"></audio>
+                    <img id="play-btn" src="/assets/icon/play.svg" alt="">
+                    <img id="pause-btn" src="/assets/icon/pause.svg" alt="">
+                </div>
+                <div class="controls__sound controls__content">
+                    <img class="controls__sound-btn" src="/assets/icon/subway_sound.svg" alt="" aria-expanded="false">
+                    <div class="controls__audio" aria-hidden="true">
+                        <input class="controls__input" type="range" id="volume" min="0" max="1" value="1" step="0.1">
+                        <span id="volume-value">100%</span>
+                    </div>
+                </div>
             </div>
         </article>
 
