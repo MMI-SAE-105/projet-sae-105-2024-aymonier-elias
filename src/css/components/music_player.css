@@ -1,8 +1,30 @@
 .controls{
     display: flex;
     align-items: center;
-    gap: 20px;
+    justify-content: space-between;
     background-color: var(--blue-light);
+    padding-right: 10px;
+    gap: 10px;
+    border-radius: 10px;
+    height: 90px;
+}
+
+.controls__img {
+    height: inherit;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.controls__container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.controls-btn__container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #pause-btn{
@@ -41,4 +63,7 @@
 }
 .controls__audio[aria-hidden = true] {
     visibility: hidden;
+}
+.controls__input {
+    width: 100%;
 }
