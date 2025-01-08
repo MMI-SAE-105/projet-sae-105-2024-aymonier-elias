@@ -12,8 +12,6 @@ const volumeValue = document.querySelector('#volume-value');
 let duration = audio.duration;
 console.log(duration)
 
-trackTime.textContent = buildDuration(duration);
-console.log(buildDuration(duration));
 
 function buildDuration(duration) {
     let minute = Math.floor(duration / 60);
