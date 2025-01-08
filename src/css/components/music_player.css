@@ -59,7 +59,8 @@
     padding: 10px 20px;
 }
 #volume {
-    appearance: slider-vertical;
+    writing-mode: vertical-lr;
+    direction: rtl;
 }
 .controls__audio[aria-hidden = true] {
     visibility: hidden;
